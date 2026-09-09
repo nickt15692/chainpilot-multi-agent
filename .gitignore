@@ -1,0 +1,35 @@
+# ── Secrets ───────────────────────────────────────────────────────────────────
+# Never commit .env — it holds the Anthropic API key, Slack webhook and SMTP
+# credentials. Copy .env.example to .env and fill it in locally.
+.env
+.env.*
+!.env.example
+
+# ── Python ────────────────────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ── Node / frontend ───────────────────────────────────────────────────────────
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+
+# ── Runtime state (auto-created on first run) ─────────────────────────────────
+# These accumulate live decision history and supplier notes; they are per-install
+# state, not source. See docs/ARCHITECTURE.md.
+backend/trust_ledger.json
+backend/supplier_knowledge.json
+
+# ── Presentation assets ───────────────────────────────────────────────────────
+*.pptx
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+Thumbs.db
