@@ -195,8 +195,10 @@ to change.
 
 ---
 
-*ChainPilot — autonomous supply chain disruption response*
-
 ## License
 
 Released under the [MIT License](LICENSE).
+
+---
+
+*ChainPilot — autonomous supply chain disruption response*
